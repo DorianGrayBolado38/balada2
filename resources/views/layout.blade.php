@@ -21,16 +21,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{route('')}}">Cadastro</a>
+          <a class="nav-link" href="{{route('cadastro-evento')}}">Cadastro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{route('')}}">Pesquisa</a>
+          <a class="nav-link" href="{{route('lista-evento')}}">Pesquisa</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lista</a>
         </li>
       </ul>
     </div>
